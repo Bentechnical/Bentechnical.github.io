@@ -27,10 +27,7 @@ html {
     overflow: auto;
     display: flex;
     scroll-snap-align: start;
-    scroll-snap-stop: always;
-    block-size: 100%;
-
-}
+    scroll-snap-stop: always;}
 .block-a{
     background-color: #0077b3;
 }

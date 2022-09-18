@@ -2,7 +2,7 @@
 window.onload = function () {typeWriter()};
 
 var i = 0;
-var txt = 'Hello world! This is Ben Taylor and I am making a website (for real this time) '; /* The text */
+var txt = 'Hello world! This is Ben Taylor and I am making a website (for real this time, he says) '; /* The text */
 var speed = 50; /* The speed/duration of the effect in milliseconds */
 
 function typeWriter() {

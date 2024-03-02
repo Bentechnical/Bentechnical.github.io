@@ -47,6 +47,15 @@ p {
     padding-top: 270px;
 }
 
+.body-text {
+    padding-top: 50px !important;
+
+}
+
+.body-arrow {
+    padding-top: -50px !important;
+}
+
 .flexbox-container{
     display: flex;
     flex-direction: column;

@@ -69,7 +69,7 @@ p {
 @media screen and (max-width:767px) {
     p {
         padding-top: 25%;
-        padding-bottom: 20px;
+        padding-bottom: 0px;
     }
     .arrow{
         padding: 0px 0px 50px 0px; 

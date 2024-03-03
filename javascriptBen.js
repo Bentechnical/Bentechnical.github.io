@@ -19,8 +19,8 @@ $(document).ready(function () {
             $('i').fadeIn(1500);
             $('i').fadeOut(1200);
         }
-        setInterval(blink_text, 3000);
-    }, 4500); 
+        setInterval(blink_text, 2000);
+    }, 2000); 
 
 });
 

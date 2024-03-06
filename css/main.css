@@ -21,20 +21,13 @@ a {
     width: 99vw;
     margin: 0;
     overflow: auto;
-    scroll-snap-type: y mandatory;
     scroll-snap-align: start;
-    scroll-snap-stop: always;
-    align-content: flex-start;
-
+    scroll-snap-stop: always;}
+.block-a{
+    background-color: #002235
 }
-.color-a{
-    background-color: #343f3e
-}
-.color-b{
-    background-color: #505A5B;
-}
-.color-c{
-    background:#002235
+.block-b{
+    background-color: #0077b3;
 }
 .hero-text li {
     color: white;
@@ -55,82 +48,28 @@ p {
     padding-top: 70px;
     padding-top: 270px;
 }
-p.footer-text{
-    padding-top: 50px;
-    font-size: 20px;
+
+.body-text {
+    padding-top: 50px !important;
+
 }
 
-.footer-block{ 
-    height: 20%;
-    width: 100%;
-    height: 20vh;
-    width: 99vw;
-    margin: 0;
-    max-height: 20vh;
-    min-height: 20vh;
-    overflow: visible;
-    scroll-snap-align: start;
-    scroll-snap-stop: always;
-    align-content: flex-start;
-    align-items: left;
-}
 .body-arrow {
     padding-top: -50px !important;
 }
+
 .flexbox-container{
     display: flex;
     flex-direction: column;
     width: 100%;
     align-items: center;
-    overflow: visible;
-}
-.buffer{
-    display: flex;
-    max-height: 20vh;
-    min-height: 20vh;
-    width: 100%;
-    width: 99vw;
-    margin: 0;
-
-}
-.rows{
-    flex-wrap:nowrap; 
-    flex-direction: row; 
-}
-.container-rows{
-    flex-direction: row; 
-    display: flex;
-    overflow: inherit;
-    height: 200vh; 
 }
 .arrow{
     color: white;
     display: flex;
     padding: 200px 0px 50px 0px;
 }
-.right-block{
-    scroll-snap-align: start;
-    scroll-snap-stop: always;
-    flex: 1; 
-    height: 100vh; 
-    width: 100%; 
-    min-height: 100vh;
 
-}
-.left-side{
-    flex: 1;
-    position: sticky; 
-    top: 0;
-}
-.right-container{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: flex-start;
-    align-content: stretch;
-    align-items: flex-start;
-    flex: 4; 
-}
 @media screen and (max-width:767px) {
     p {
         padding-top: 25%;

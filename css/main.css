@@ -2,6 +2,9 @@ html, body {
     block-size: 100%;
     margin: 0px auto;
 }
+html {
+    background: color #002235;
+}
 body{
     margin:0;   
     font-size: 100px;
